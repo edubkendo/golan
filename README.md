@@ -1,10 +1,14 @@
 #Golan
 
-This is a port of the core [Foundation] [1] style to JavaFX licensed under MIT (same as Foundation). The styles are defined in the various stylesheets with an uber one in the pipeline if people required.
+This is a port of the core [Foundation] [1] style to JavaFX licensed under MIT (same as Foundation). The styles are defined in the various stylesheets with an uber one in the pipeline if required.
 
 ## Tested Platforms
 
 * Mac using JDK 1.7 (u10) JavaFX 2.2
+
+## Status
+
+Its under active development and controls will be added over the next few weeks.
 
 ## Whats Implemented?
 
