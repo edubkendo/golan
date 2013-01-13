@@ -1,0 +1,125 @@
+/* core style */
+
+.button {
+    -fx-background-radius: 0, 0;
+    -fx-background-insets: 0, 1.5 0 0 0;
+
+    -fx-border-radius: 0;
+    -fx-border-width: 1;
+
+    -fx-font-weight: bold;
+
+    -fx-padding: 10px 20px 10px 20px;
+
+    -fx-border-color: #1E728C;
+    -fx-background-color: derive(#2ba6cb, 75%), #2ba6cb;
+    -fx-text-fill: white;
+
+    -fx-padding: 10px 20px 10px 20px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+.button:hover {
+    -fx-background-color: derive(#2284A1, 75%), #2284A1;
+}
+
+.button:armed {
+    -fx-background-color: derive(#2284A1, -75%), #2284A1;
+}
+
+/* other styles */
+
+.button.radius {
+    -fx-background-radius: 3px, 4px;
+    -fx-background-insets: 0, 1.5 0 0 0;
+
+    -fx-border-radius: 3px;
+    -fx-border-width: 1;
+
+    -fx-padding: 0;
+    -fx-font-weight: bold;
+
+    -fx-padding: 10px 20px 10px 20px;
+
+}
+
+.button.round {
+    -fx-background-radius: 1000px, 1001px;
+    -fx-background-insets: 0, 1.5 0 0 0;
+
+    -fx-border-radius: 1000px;
+    -fx-border-width: 1;
+
+    -fx-padding: 0;
+    -fx-font-weight: bold;
+
+    -fx-padding: 10px 20px 10px 20px;
+
+}
+
+/* sizes */
+
+.button.tiny {
+    -fx-font-size: 10px;
+    -fx-padding: 5px 10px 5px 10px;
+}
+
+.button.small {
+    -fx-font-size: 11px;
+    -fx-padding: 8px 14px 8px 14px;
+}
+
+.button.large {
+    -fx-font-size: 17px;
+    -fx-padding: 15px 30px 15px 30px;
+}
+
+/* types */
+
+.button.secondary {
+    -fx-border-color: #C3C3C3;
+    -fx-background-color: derive(#E6E6E6, 75%), #E6E6E6;
+    -fx-text-fill: #1D1D1D;
+}
+
+.button.secondary:hover {
+    -fx-background-color: derive(#D0D0D0, 75%), #D0D0D0;
+}
+
+.button.secondary:armed {
+    -fx-background-color: derive(#D0D0D0, -75%), #D0D0D0;
+}
+
+
+
+.button.success {
+    -fx-border-color: #396516;
+    -fx-background-color: derive(#5DA423, 75%), #5DA423;
+    -fx-text-fill: white;
+}
+
+.button.success:hover {
+    -fx-background-color: derive(#457A1A, 75%), #457A1A;
+}
+
+.button.success:armed {
+    -fx-background-color:  derive(#457A1A, -75%), #457A1A;
+}
+
+
+
+.button.alert {
+    -fx-border-color: #7F0A0C;
+    -fx-background-color: derive(#C60F13, 75%), #C60F13;
+    -fx-text-fill: white;
+}
+
+.button.alert:hover {
+    -fx-background-color: derive(#970B0E, 75%), #970B0E;
+}
+
+.button.alert:armed {
+    -fx-background-color: derive(#970B0E, -75%), #970B0E;
+}

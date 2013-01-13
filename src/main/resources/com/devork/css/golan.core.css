@@ -1,0 +1,101 @@
+/*
+ * ---------------------------------------------------------------------------------------------------------------------
+ * Root definition
+ * ---------------------------------------------------------------------------------------------------------------------
+*/
+.root {
+    -fx-font-family: "Helvetica Neue", "Helvetica", "sans-serif";
+    -fx-text-fill: 222222;
+    -fx-font-size: 14px;
+}
+
+/* ----- HEADERS ----- */
+.label.h1.small, .label.h2.small, .label.h3.small, .label.h4.small, .label.h5.small, .label.h6.small {
+    -fx-font-size: 60%;
+    -fx-font-colour: #6F6F6F;
+}
+
+.label.h1.subheader, .label.h2.subheader, .label.h3.subheader, .label.h4.subheader, .label.h5.subheader, .label.h6.subheader {
+    -fx-text-fill: #6F6F6F;
+    -fx-font-weight: 300;
+}
+
+.label.h1, .label.h2, .label.h3, .label.h4, .label.h5, .label.h6 {
+    -fx-font-family: "Open Sans";
+    -fx-font-weight: 500;
+    -fx-text-fill: #222;
+}
+
+.label.h1 {-fx-font-size: 44px; }
+.label.h2 {-fx-font-size: 37px; }
+.label.h3 {-fx-font-size: 27px; }
+.label.h4 {-fx-font-size: 23px; }
+.label.h5 {-fx-font-size: 17px; }
+.label.h6 {-fx-font-size: 14px; }
+
+/* ----- HR ----- */
+.hr.line {
+    -fx-border-color: #DDD transparent transparent transparent;
+}
+
+/* ----- SCROLLBARS ----- */
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 2em;
+}
+
+.scroll-bar:horizontal .increment-button,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 0 10 0;
+
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button {
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 10 0 0;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape: none;
+    -fx-padding: 0;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #4D4D4D;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+
+}
+
+/* ----- HYPERLINKS ----- */
+.hyperlink, .hyperlink:visited {
+    -fx-text-fill :#2BA6CB;
+}
+
+.hyperlink:hover, .hyperlink:armed {
+    -fx-text-fill: #2795B6;
+}
+
+/* ----- BLOCKQUOTE ----- */
+.label.blockquote {
+    -fx-border-color: #DDD;
+    -fx-border-width: 0 0 0 1px;
+    -fx-text-fill: #6F6F6F;
+    -fx-label-padding: 9px 20px 0 19px;
+}
+
+.label.blockquote.cite {
+    -fx-text-fill: #555;
+    font-style: italic;
+}
+

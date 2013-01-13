@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?scenebuilder-stylesheet ../css/golan.core.css?>
+<?scenebuilder-stylesheet ../css/golan.buttons.css?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="730.0000999999975" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Label layoutY="147.0" styleClass="h3" text="Types &amp; Styles" AnchorPane.leftAnchor="14.0" />
+    <GridPane layoutX="15.0" layoutY="259.0" prefHeight="294.0" prefWidth="703.0">
+      <children>
+        <Label styleClass="h5" text="Type" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="0" />
+        <Label styleClass="h5" text="Styles" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="0" GridPane.valignment="CENTER" />
+        <Button mnemonicParsing="false" text="Normal" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" styleClass="secondary, square" text="Secondary" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" styleClass="success, square" text="Success" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" styleClass="alert, square" text="Alert" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="4" />
+        <Button mnemonicParsing="false" text="Square" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+        <Button mnemonicParsing="false" styleClass="radius" text="Radius" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" styleClass="round" text="Round" GridPane.columnIndex="2" GridPane.halignment="LEFT" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" styleClass="tiny" text="Tiny" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Label styleClass="h5" text="Sizes" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Button mnemonicParsing="false" styleClass="small" text="Small" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Button mnemonicParsing="false" text="Medium" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Button mnemonicParsing="false" styleClass="large" text="Button" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="63.0" minHeight="10.0" prefHeight="63.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+    <Label layoutY="186.0" prefHeight="56.0" prefWidth="703.0" text="Foundation buttons have a number of parameters and styles — you can see a few examples below. The out of the box classes include size, type (color) and style (square, slightly rounded, and completely rounded)." wrapText="true" AnchorPane.leftAnchor="14.0" />
+    <Label layoutX="14.0" layoutY="14.0" styleClass="h2" text="Buttons" />
+    <Label layoutX="14.0" layoutY="71.0" prefWidth="703.0" styleClass="h5, subheader" text="Buttons are a convenient tool when it comes to more traditional actions. To that end, Foundation includes a lot of easy to use button styles that you can customize or override to fit your needs." wrapText="true" />
+  </children>
+</AnchorPane>
