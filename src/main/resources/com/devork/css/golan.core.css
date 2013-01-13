@@ -10,9 +10,41 @@
 }
 
 /* ----- HEADERS ----- */
-.label.h1.small, .label.h2.small, .label.h3.small, .label.h4.small, .label.h5.small, .label.h6.small {
-    -fx-font-size: 60%;
-    -fx-font-colour: #6F6F6F;
+.label.h1 {-fx-font-size: 44px; }
+.label.h2 {-fx-font-size: 37px; }
+.label.h3 {-fx-font-size: 27px; }
+.label.h4 {-fx-font-size: 23px; }
+.label.h5 {-fx-font-size: 17px; }
+.label.h6 {-fx-font-size: 14px; }
+
+.label.h1.small {
+    -fx-font-size: 26px;
+    -fx-text-fill: #6F6F6F;
+}
+
+.label.h2.small{
+    -fx-font-size: 22px;
+    -fx-text-fill: #6F6F6F;
+}
+
+.label.h3.small{
+    -fx-font-size: 16px;
+    -fx-text-fill: #6F6F6F;
+}
+
+.label.h4.small{
+    -fx-font-size: 14px;
+    -fx-text-fill: #6F6F6F;
+}
+
+.label.h5.small{
+    -fx-font-size: 10px;
+    -fx-text-fill: #6F6F6F;
+}
+
+.label.h6.small {
+    -fx-font-size: 8px;
+    -fx-text-fill: #6F6F6F;
 }
 
 .label.h1.subheader, .label.h2.subheader, .label.h3.subheader, .label.h4.subheader, .label.h5.subheader, .label.h6.subheader {
@@ -25,13 +57,6 @@
     -fx-font-weight: 500;
     -fx-text-fill: #222;
 }
-
-.label.h1 {-fx-font-size: 44px; }
-.label.h2 {-fx-font-size: 37px; }
-.label.h3 {-fx-font-size: 27px; }
-.label.h4 {-fx-font-size: 23px; }
-.label.h5 {-fx-font-size: 17px; }
-.label.h6 {-fx-font-size: 14px; }
 
 /* ----- HR ----- */
 .hr.line {
