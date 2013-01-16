@@ -1,0 +1,39 @@
+
+
+.tab-pane:top *.tab-header-background {
+    -fx-background-color: white;
+    -fx-effect: inherit;
+    -fx-border-color: #e6e6e6;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.tab-pane:top *.headers-region {
+    -fx-background-color: white;
+    -fx-effect: inherit;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-color: white;
+
+}
+
+.tab:top {
+    -fx-background-color: white;
+    -fx-background-radius: 0;
+    -fx-padding: 0.5em;
+}
+
+.tab-pane:top .tab-header-area {
+    -fx-padding: 0;
+}
+
+.tab:selected:top {
+    -fx-border-color: rgb(43, 166, 203) #e6e6e6 #e6e6e6 #e6e6e6;
+    -fx-border-width: 3px 1px 0 1px;
+}
+
+.tab:top {
+    -fx-border-color: #e6e6e6;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-insets: 0;
+}
