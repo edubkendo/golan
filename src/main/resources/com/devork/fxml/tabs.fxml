@@ -6,10 +6,26 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?scenebuilder-stylesheet ../css/golan.tabs.css?>
+<?scenebuilder-stylesheet ../css/golan.navigation.css?>
+<?scenebuilder-stylesheet ../css/golan.core.css?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;&#10;" xmlns:fx="http://javafx.com/fxml">
   <children>
-    <TabPane layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="572.0" tabClosingPolicy="UNAVAILABLE">
+    <TabPane layoutX="14.0" layoutY="14.0" prefHeight="145.0" prefWidth="572.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Untitled Tab 1">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="78.0" prefWidth="572.0" />
+          </content>
+        </Tab>
+        <Tab text="Untitled Tab 2">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <TabPane layoutX="14.0" layoutY="159.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
       <tabs>
         <Tab text="Untitled Tab 1">
           <content>

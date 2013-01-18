@@ -1,4 +1,23 @@
+.tab-label {
+    -fx-padding: 0 23px 0 23px;
+}
 
+
+/* orientations */
+.tab-pane:top {
+    -fx-background-color: white;
+}
+
+.tab-pane:top *.control-buttons-tab {
+    -fx-background-radius: 0;
+    -fx-background-color: rgb(43, 166, 203);
+    -fx-background-insets: 0;
+    -fx-border-color: #e6e6e6;
+}
+
+.tab-pane:top *.arrow {
+    -fx-background-color: white;
+}
 
 .tab-pane:top *.tab-header-background {
     -fx-background-color: white;
@@ -23,13 +42,28 @@
     -fx-padding: 0.5em;
 }
 
+.tab:top .tab-label {
+    -fx-text-fill: rgb(111, 111, 111);
+    -fx-font-weight: normal;
+}
+
+.tab:top:selected .tab-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(60, 60, 60);
+}
+
 .tab-pane:top .tab-header-area {
     -fx-padding: 0;
 }
 
+/*
+ This may be better using background insets as there is an overlap of the grey on
+ blue. Could use three colours: blue then grey then white...
+ */
 .tab:selected:top {
     -fx-border-color: rgb(43, 166, 203) #e6e6e6 #e6e6e6 #e6e6e6;
     -fx-border-width: 3px 1px 0 1px;
+    -fx-border-insets: 0;
 }
 
 .tab:top {
@@ -37,3 +71,5 @@
     -fx-border-width: 0 0 1px 0;
     -fx-background-insets: 0;
 }
+
+
