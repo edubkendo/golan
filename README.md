@@ -25,4 +25,10 @@ Standard button set is implemented, split and dropdowns to come...
 ![Screenshot: Buttons](https://raw.github.com/devork/golan/master/docs/screenshot.buttons.png)
 
 
+### Tabs
+
+Horizontal tabs
+
+![Screenshot: Tabs](https://raw.github.com/devork/golan/master/docs/screenshot.tabs.png)
+
 [1]: http://foundation.zurb.com/ "Foundation"
